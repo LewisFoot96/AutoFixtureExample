@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingInstructorApi", "DrivingInstructorApi\DrivingInstructorApi.csproj", "{7ACE7853-A352-4FFF-A120-2A8E563A9262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingInstructor.Tests", "DrivingInstructor.Tests\DrivingInstructor.Tests.csproj", "{AEE5C582-51E9-41F0-B0F5-9C613A546ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7ACE7853-A352-4FFF-A120-2A8E563A9262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ACE7853-A352-4FFF-A120-2A8E563A9262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ACE7853-A352-4FFF-A120-2A8E563A9262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE5C582-51E9-41F0-B0F5-9C613A546ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE5C582-51E9-41F0-B0F5-9C613A546ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE5C582-51E9-41F0-B0F5-9C613A546ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE5C582-51E9-41F0-B0F5-9C613A546ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
