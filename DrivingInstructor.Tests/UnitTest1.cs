@@ -49,6 +49,14 @@ public class UnitTest1
             DrivingInstructorToAdd = someDto
         };
 
+        var fixture = new Fixture();
+
+        //Creating a comomand with a custom email adress,that can then be 
+        //asserted if required
+        var mc = fixture.Build<CreateDrivingInstructorCommand>()
+                .With(x => x.DrivingInstructorToAdd.EmailAddress, "CustomEmailAddress")
+                .Create();
+
         // Act
         var result = await sut.Handle(request, CancellationToken.None);
 
